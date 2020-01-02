@@ -1,0 +1,21 @@
+.footer {
+    height: 15vh;
+    border-bottom: 10px solid $dark-text-color;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer-content {
+
+        p {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 0;
+
+            @media all and (max-width: 375px) {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

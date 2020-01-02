@@ -1,0 +1,191 @@
+.department {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+
+    .all-department {
+        box-shadow: 2px 3px 6px 2px #e0e0e0;
+        padding: 5rem;
+
+        @media all and (max-width: 658px) {
+            padding: 2rem;
+        }
+
+        .nd-level {
+            display: flex;
+
+            @media all and (max-width: 530px) {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .nd-one {
+                background-color: #29434e;
+                padding: 3.5rem;
+                margin: 1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    color: $light-text-color;
+                    font-size: 2rem;
+                    margin-bottom: 2rem;
+
+                    @media all and (max-width: 600px) {
+                        font-size: 1.4rem;
+                    }
+                }
+
+                .semesters {
+
+                    .first-semester {
+                        margin-bottom: 1.5rem;
+
+                        .btn-link {
+
+                            .btn {
+                                padding: 1.5rem 2rem;
+                                background-color: #eee;
+                                border: 1px solid #29434e;
+                                outline: none;
+                                text-transform: uppercase;
+
+                                @media all and (max-width: 1050px) {
+                                    font-size: 1.2rem;
+                                }
+
+                                @media all and (max-width: 600px) {
+                                    font-size: 1rem;
+                                    padding: 1.5rem 1.7rem;
+                                }
+
+                                &:hover {
+                                    background-color: #29434e;
+                                    border: 1px solid #eee;
+                                    color: #eee;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+
+                    .second-semester {
+
+                        .btn-link {
+
+                            .btn {
+                                padding: 1.5rem 1rem;
+                                background-color: #eee;
+                                border: 1px solid #29434e;
+                                outline: none;
+                                text-transform: uppercase;
+
+                                @media all and (max-width: 1050px) {
+                                    font-size: 1.2rem;
+                                }
+
+                                @media all and (max-width: 600px) {
+                                    font-size: 1rem;
+                                }
+
+                                &:hover {
+                                    background-color: #29434e;
+                                    border: 1px solid #eee;
+                                    color: #eee;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .nd-two {
+                background-color: #1c313a;
+                padding: 3.5rem;
+                margin: 1rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                p {
+                    color: $light-text-color;
+                    font-size: 2rem;
+                    margin-bottom: 2rem;
+
+                    @media all and (max-width: 600px) {
+                        font-size: 1.4rem;
+                    }
+                }
+
+                .semesters {
+
+                    .first-semester {
+                        margin-bottom: 1.5rem;
+
+                        .btn-link {
+
+                            .btn {
+                                padding: 1.5rem 2rem;
+                                background-color: #eee;
+                                border: 1px solid #1c313a;
+                                outline: none;
+                                text-transform: uppercase;
+
+                                @media all and (max-width: 1050px) {
+                                    font-size: 1.2rem;
+                                }
+
+                                @media all and (max-width: 600px) {
+                                    font-size: 1rem;
+                                    padding: 1.5rem 1.7rem;
+                                }
+
+                                &:hover {
+                                    background-color: #1c313a;
+                                    border: 1px solid #eee;
+                                    color: #eee;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+
+                    .second-semester {
+
+                        .btn-link {
+
+                            .btn {
+                                padding: 1.5rem 1rem;
+                                background-color: #eee;
+                                border: 1px solid #1c313a;
+                                outline: none;
+                                text-transform: uppercase;
+
+                                @media all and (max-width: 1050px) {
+                                    font-size: 1.2rem;
+                                }
+
+                                @media all and (max-width: 600px) {
+                                    font-size: 1rem;
+                                }
+
+                                &:hover {
+                                    background-color: #1c313a;
+                                    border: 1px solid #eee;
+                                    color: #eee;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,732 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s; }
+
+html {
+  font-size: 62.5%; }
+  @media all and (max-width: 480px) {
+    html {
+      font-size: 45%; } }
+  @media all and (max-width: 600px) {
+    html {
+      font-size: 50%; } }
+  @media all and (max-width: 768px) {
+    html {
+      font-size: 52%; } }
+  @media all and (max-width: 900px) {
+    html {
+      font-size: 54%; } }
+  @media all and (max-width: 980px) {
+    html {
+      font-size: 56%; } }
+  @media all and (min-width: 1280px) {
+    html {
+      font-size: 56.25%; } }
+  @media all and (min-width: 1700px) {
+    html {
+      font-size: 60%; } }
+  @media all and (min-width: 1920px) {
+    html {
+      font-size: 65%; } }
+  @media all and (min-width: 2560px) {
+    html {
+      font-size: 78%; } }
+  @media all and (min-width: 960px) and (max-width: 1199px) {
+    html {
+      font-size: 57%; } }
+  @media all and (min-width: 768px) and (max-width: 959px) {
+    html {
+      font-size: 53%; } }
+  @media all and (min-width: 480px) and (max-width: 767px) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-size: 1.6rem;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  background-color: #ffffff;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: #000a12; }
+
+.careers {
+  margin-bottom: 6rem; }
+  .careers .career-container {
+    margin-top: 3rem; }
+    .careers .career-container .career-header {
+      font-weight: 400;
+      font-size: 2rem;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: center; }
+      @media all and (max-width: 700px) {
+        .careers .career-container .career-header {
+          font-size: 1.6rem; } }
+      @media all and (max-width: 500px) {
+        .careers .career-container .career-header {
+          font-size: 1.3rem; } }
+      @media all and (max-width: 340px) {
+        .careers .career-container .career-header {
+          font-size: 1rem; } }
+    .careers .career-container .careers-in-csc {
+      margin-top: 3rem; }
+      .careers .career-container .careers-in-csc .first-group {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem; }
+        .careers .career-container .careers-in-csc .first-group div {
+          display: flex; }
+          @media all and (max-width: 570px) {
+            .careers .career-container .careers-in-csc .first-group div {
+              display: flex;
+              flex-direction: column; } }
+        @media all and (max-width: 445px) {
+          .careers .career-container .careers-in-csc .first-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center; } }
+        @media all and (max-width: 570px) {
+          .careers .career-container .careers-in-csc .first-group {
+            margin-bottom: 0; } }
+        .careers .career-container .careers-in-csc .first-group .career-item {
+          display: flex;
+          box-shadow: 2px 3px 6px 2px #e0e0e0;
+          padding: 1.5rem 0rem 1.5rem 2rem;
+          width: 20vw;
+          margin-right: 2rem;
+          flex-direction: row; }
+          @media all and (max-width: 700px) {
+            .careers .career-container .careers-in-csc .first-group .career-item {
+              padding-left: .5rem; } }
+          @media all and (max-width: 570px) {
+            .careers .career-container .careers-in-csc .first-group .career-item {
+              width: 35vw;
+              margin-bottom: 2rem; } }
+          @media all and (max-width: 445px) {
+            .careers .career-container .careers-in-csc .first-group .career-item {
+              width: 50vw; } }
+          .careers .career-container .careers-in-csc .first-group .career-item img {
+            width: 4rem;
+            height: 4rem; }
+          .careers .career-container .careers-in-csc .first-group .career-item p {
+            font-size: 1.4rem;
+            font-weight: 400;
+            letter-spacing: 0;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            line-height: 2rem; }
+            @media all and (max-width: 700px) {
+              .careers .career-container .careers-in-csc .first-group .career-item p {
+                font-size: 1.2rem; } }
+      .careers .career-container .careers-in-csc .second-group {
+        display: flex;
+        justify-content: center; }
+        .careers .career-container .careers-in-csc .second-group div {
+          display: flex; }
+          @media all and (max-width: 570px) {
+            .careers .career-container .careers-in-csc .second-group div {
+              display: flex;
+              flex-direction: column; } }
+        @media all and (max-width: 445px) {
+          .careers .career-container .careers-in-csc .second-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center; } }
+        .careers .career-container .careers-in-csc .second-group .career-item {
+          display: flex;
+          box-shadow: 2px 3px 6px 2px #e0e0e0;
+          padding: 1.5rem 0rem 1.5rem 2rem;
+          width: 20vw;
+          margin-right: 2rem;
+          flex-direction: row; }
+          @media all and (max-width: 700px) {
+            .careers .career-container .careers-in-csc .second-group .career-item {
+              padding-left: .5rem; } }
+          @media all and (max-width: 570px) {
+            .careers .career-container .careers-in-csc .second-group .career-item {
+              width: 35vw;
+              margin-bottom: 2rem; } }
+          @media all and (max-width: 445px) {
+            .careers .career-container .careers-in-csc .second-group .career-item {
+              width: 50vw; } }
+          .careers .career-container .careers-in-csc .second-group .career-item img {
+            width: 4rem;
+            height: 4rem; }
+          .careers .career-container .careers-in-csc .second-group .career-item p {
+            font-size: 1.4rem;
+            font-weight: 400;
+            letter-spacing: 0;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            margin-left: 1rem;
+            line-height: 2rem; }
+            @media all and (max-width: 700px) {
+              .careers .career-container .careers-in-csc .second-group .career-item p {
+                font-size: 1.2rem; } }
+
+.section-courses {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .section-courses .course-container {
+    display: flex;
+    margin: 0 10rem; }
+    @media (min-width: 1800px) {
+      .section-courses .course-container {
+        margin: 0 15rem; } }
+    .section-courses .course-container .course-content {
+      background-color: #f7f8fa;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .section-courses .course-container .course-content p {
+        font-weight: 800;
+        font-size: 1.8rem;
+        line-height: 1.3;
+        padding: 0 5rem 0rem 10rem; }
+        @media all and (max-width: 1279px) {
+          .section-courses .course-container .course-content p {
+            padding: 0 4rem 0rem 4rem; } }
+        @media all and (max-width: 1259px) {
+          .section-courses .course-container .course-content p {
+            padding: 0 2rem 0rem 2rem; } }
+        .section-courses .course-container .course-content p span {
+          font-weight: 600;
+          font-size: 1.5rem;
+          letter-spacing: 1px; }
+        @media all and (max-width: 1120px) {
+          .section-courses .course-container .course-content p {
+            display: none; } }
+    .section-courses .course-container .course-preview {
+      display: flex; }
+      @media all and (max-width: 600px) {
+        .section-courses .course-container .course-preview {
+          display: flex;
+          flex-direction: column; } }
+      .section-courses .course-container .course-preview .card {
+        border: 1px solid #ddd;
+        margin-left: 1rem;
+        box-shadow: 0px 3px #e0e0e0; }
+        @media all and (max-width: 600px) {
+          .section-courses .course-container .course-preview .card {
+            margin-bottom: 1rem; } }
+        .section-courses .course-container .course-preview .card:hover {
+          box-shadow: 2px 3px 6px 2px #e0e0e0;
+          cursor: pointer; }
+        .section-courses .course-container .course-preview .card .card-link {
+          text-decoration: none;
+          color: #000a12; }
+          .section-courses .course-container .course-preview .card .card-link:hover .img-card {
+            opacity: 1; }
+          .section-courses .course-container .course-preview .card .card-link:hover .course-title {
+            text-decoration: underline; }
+          .section-courses .course-container .course-preview .card .card-link .img-card {
+            width: 22rem;
+            height: 15rem;
+            opacity: 0.8; }
+          .section-courses .course-container .course-preview .card .card-link .card-content {
+            padding-top: 4rem;
+            padding-bottom: 5rem; }
+            .section-courses .course-container .course-preview .card .card-link .card-content .course-title {
+              letter-spacing: 0;
+              font-weight: 800;
+              line-height: 2;
+              text-align: center; }
+            .section-courses .course-container .course-preview .card .card-link .card-content .title-sub {
+              font-weight: 600;
+              color: #aaa;
+              text-align: center; }
+  .section-courses .mid-content {
+    margin-top: 5rem; }
+    .section-courses .mid-content p {
+      font-weight: 400;
+      font-size: 2.5rem; }
+    @media all and (max-width: 600px) {
+      .section-courses .mid-content {
+        display: none; } }
+  .section-courses .course-preview-II {
+    display: flex;
+    margin-top: 4rem; }
+    @media all and (max-width: 600px) {
+      .section-courses .course-preview-II {
+        display: flex;
+        flex-direction: column; } }
+    @media all and (max-width: 1120px) {
+      .section-courses .course-preview-II .card-one, .section-courses .course-preview-II .card-two {
+        display: none; } }
+    .section-courses .course-preview-II .card {
+      border: 1px solid #ddd;
+      margin-left: 1rem;
+      box-shadow: 0px 3px #e0e0e0; }
+      @media all and (max-width: 600px) {
+        .section-courses .course-preview-II .card {
+          margin-bottom: 1rem; } }
+      .section-courses .course-preview-II .card:hover {
+        box-shadow: 2px 3px 6px 2px #e0e0e0;
+        cursor: pointer; }
+      .section-courses .course-preview-II .card .card-link {
+        text-decoration: none;
+        color: #000a12; }
+        .section-courses .course-preview-II .card .card-link:hover .img-card {
+          opacity: 1; }
+        .section-courses .course-preview-II .card .card-link:hover .course-title {
+          text-decoration: underline; }
+        .section-courses .course-preview-II .card .card-link .img-card {
+          width: 22rem;
+          height: 15rem;
+          opacity: 0.8; }
+        .section-courses .course-preview-II .card .card-link .card-content {
+          padding-top: 4rem;
+          padding-bottom: 5rem; }
+          .section-courses .course-preview-II .card .card-link .card-content .course-title {
+            letter-spacing: 0;
+            font-weight: 800;
+            line-height: 2;
+            text-align: center; }
+          .section-courses .course-preview-II .card .card-link .card-content .title-sub {
+            font-weight: 600;
+            color: #aaa;
+            text-align: center; }
+
+.department {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem; }
+  .department .all-department {
+    box-shadow: 2px 3px 6px 2px #e0e0e0;
+    padding: 5rem; }
+    @media all and (max-width: 658px) {
+      .department .all-department {
+        padding: 2rem; } }
+    .department .all-department .nd-level {
+      display: flex; }
+      @media all and (max-width: 530px) {
+        .department .all-department .nd-level {
+          display: flex;
+          flex-direction: column; } }
+      .department .all-department .nd-level .nd-one {
+        background-color: #29434e;
+        padding: 3.5rem;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        .department .all-department .nd-level .nd-one p {
+          color: #eeeeee;
+          font-size: 2rem;
+          margin-bottom: 2rem; }
+          @media all and (max-width: 600px) {
+            .department .all-department .nd-level .nd-one p {
+              font-size: 1.4rem; } }
+        .department .all-department .nd-level .nd-one .semesters .first-semester {
+          margin-bottom: 1.5rem; }
+          .department .all-department .nd-level .nd-one .semesters .first-semester .btn-link .btn {
+            padding: 1.5rem 2rem;
+            background-color: #eee;
+            border: 1px solid #29434e;
+            outline: none;
+            text-transform: uppercase; }
+            @media all and (max-width: 1050px) {
+              .department .all-department .nd-level .nd-one .semesters .first-semester .btn-link .btn {
+                font-size: 1.2rem; } }
+            @media all and (max-width: 600px) {
+              .department .all-department .nd-level .nd-one .semesters .first-semester .btn-link .btn {
+                font-size: 1rem;
+                padding: 1.5rem 1.7rem; } }
+            .department .all-department .nd-level .nd-one .semesters .first-semester .btn-link .btn:hover {
+              background-color: #29434e;
+              border: 1px solid #eee;
+              color: #eee;
+              cursor: pointer; }
+        .department .all-department .nd-level .nd-one .semesters .second-semester .btn-link .btn {
+          padding: 1.5rem 1rem;
+          background-color: #eee;
+          border: 1px solid #29434e;
+          outline: none;
+          text-transform: uppercase; }
+          @media all and (max-width: 1050px) {
+            .department .all-department .nd-level .nd-one .semesters .second-semester .btn-link .btn {
+              font-size: 1.2rem; } }
+          @media all and (max-width: 600px) {
+            .department .all-department .nd-level .nd-one .semesters .second-semester .btn-link .btn {
+              font-size: 1rem; } }
+          .department .all-department .nd-level .nd-one .semesters .second-semester .btn-link .btn:hover {
+            background-color: #29434e;
+            border: 1px solid #eee;
+            color: #eee;
+            cursor: pointer; }
+      .department .all-department .nd-level .nd-two {
+        background-color: #1c313a;
+        padding: 3.5rem;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        .department .all-department .nd-level .nd-two p {
+          color: #eeeeee;
+          font-size: 2rem;
+          margin-bottom: 2rem; }
+          @media all and (max-width: 600px) {
+            .department .all-department .nd-level .nd-two p {
+              font-size: 1.4rem; } }
+        .department .all-department .nd-level .nd-two .semesters .first-semester {
+          margin-bottom: 1.5rem; }
+          .department .all-department .nd-level .nd-two .semesters .first-semester .btn-link .btn {
+            padding: 1.5rem 2rem;
+            background-color: #eee;
+            border: 1px solid #1c313a;
+            outline: none;
+            text-transform: uppercase; }
+            @media all and (max-width: 1050px) {
+              .department .all-department .nd-level .nd-two .semesters .first-semester .btn-link .btn {
+                font-size: 1.2rem; } }
+            @media all and (max-width: 600px) {
+              .department .all-department .nd-level .nd-two .semesters .first-semester .btn-link .btn {
+                font-size: 1rem;
+                padding: 1.5rem 1.7rem; } }
+            .department .all-department .nd-level .nd-two .semesters .first-semester .btn-link .btn:hover {
+              background-color: #1c313a;
+              border: 1px solid #eee;
+              color: #eee;
+              cursor: pointer; }
+        .department .all-department .nd-level .nd-two .semesters .second-semester .btn-link .btn {
+          padding: 1.5rem 1rem;
+          background-color: #eee;
+          border: 1px solid #1c313a;
+          outline: none;
+          text-transform: uppercase; }
+          @media all and (max-width: 1050px) {
+            .department .all-department .nd-level .nd-two .semesters .second-semester .btn-link .btn {
+              font-size: 1.2rem; } }
+          @media all and (max-width: 600px) {
+            .department .all-department .nd-level .nd-two .semesters .second-semester .btn-link .btn {
+              font-size: 1rem; } }
+          .department .all-department .nd-level .nd-two .semesters .second-semester .btn-link .btn:hover {
+            background-color: #1c313a;
+            border: 1px solid #eee;
+            color: #eee;
+            cursor: pointer; }
+
+.footer {
+  height: 15vh;
+  border-bottom: 10px solid #000a12;
+  background-color: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .footer .footer-content p {
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0; }
+    @media all and (max-width: 375px) {
+      .footer .footer-content p {
+        font-size: 1.2rem; } }
+
+.get-started {
+  height: 60vh;
+  background: #031b2a;
+  background-image: linear-gradient(90deg, rgba(3, 27, 42, 0.85) 33%, rgba(3, 27, 42, 0.854779) 56%), url(../../images/get-started-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 8px solid #000a12;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .get-started .btn-container .btn-link {
+    text-decoration: none; }
+    .get-started .btn-container .btn-link .btn {
+      padding: 1.5rem 4rem;
+      outline: none;
+      border: none;
+      font-size: 1.5rem;
+      font-family: "Nunito", sans-serif;
+      font-weight: 600;
+      color: #000a12;
+      text-transform: uppercase;
+      background-color: #eeeeee; }
+      .get-started .btn-container .btn-link .btn:hover {
+        color: #eeeeee;
+        background-color: #000a12;
+        cursor: pointer; }
+
+.header {
+  height: 95vh;
+  background-image: linear-gradient(90deg, rgba(182, 182, 182, 0.4) 41%, rgba(182, 182, 182, 0.7) 100%), url(../../images/bg-large1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .header .nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 6rem; }
+    @media all and (max-width: 700px) {
+      .header .nav {
+        padding: 2.5rem 4rem; } }
+    @media all and (max-width: 500px) {
+      .header .nav {
+        padding: 2.5rem 2rem; } }
+    .header .nav .logo-container a {
+      text-decoration: none; }
+      .header .nav .logo-container a .logo {
+        width: 5rem;
+        height: 5rem; }
+        @media all and (max-width: 480px) {
+          .header .nav .logo-container a .logo {
+            width: 4rem;
+            height: 4rem; } }
+    .header .nav .link-container .nav-ul {
+      margin-top: 1.5rem; }
+      .header .nav .link-container .nav-ul .nav-list {
+        list-style: none; }
+        .header .nav .link-container .nav-ul .nav-list .nav-link {
+          color: #eeeeee;
+          text-decoration: none;
+          font-size: 2rem;
+          padding: .4rem 2rem;
+          border: 1px solid #000a12;
+          background-color: #000a12; }
+          @media all and (max-width: 615px) {
+            .header .nav .link-container .nav-ul .nav-list .nav-link {
+              font-size: 1.4rem; } }
+          .header .nav .link-container .nav-ul .nav-list .nav-link:hover {
+            background-color: #eeeeee;
+            color: #000a12; }
+  .header .header-content {
+    line-height: 0.5;
+    margin-left: 7rem; }
+    @media all and (max-width: 700px) {
+      .header .header-content {
+        margin-left: 4rem; } }
+    @media all and (max-width: 500px) {
+      .header .header-content {
+        margin-left: 2.5rem; } }
+    .header .header-content h2 {
+      font-size: 6rem;
+      font-weight: 800;
+      color: #000a12; }
+      @media all and (max-width: 850px) {
+        .header .header-content h2 {
+          font-size: 5rem; } }
+      @media all and (max-width: 615px) {
+        .header .header-content h2 {
+          font-size: 4rem;
+          line-height: 0.5; } }
+      @media all and (max-width: 492px) {
+        .header .header-content h2 {
+          font-size: 3rem;
+          line-height: 0.8; } }
+      .header .header-content h2 span {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #000a12; }
+        @media all and (max-width: 850px) {
+          .header .header-content h2 span {
+            font-size: 1.6rem; } }
+        @media all and (max-width: 615px) {
+          .header .header-content h2 span {
+            font-size: 1.4rem; } }
+        @media all and (max-width: 480px) {
+          .header .header-content h2 span {
+            font-size: 1.4rem; } }
+  .header .header-foot {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+    background: #000a12; }
+    .header .header-foot .icon {
+      width: 5rem;
+      height: 5rem;
+      display: flex;
+      align-items: center; }
+      @media all and (max-width: 645px) {
+        .header .header-foot .icon {
+          width: 3rem;
+          height: 3rem; } }
+      @media all and (max-width: 540px) {
+        .header .header-foot .icon {
+          display: none; } }
+    .header .header-foot p {
+      font-size: 2rem;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      margin-left: 2rem;
+      color: #eeeeee; }
+      @media all and (max-width: 645px) {
+        .header .header-foot p {
+          font-size: 1.6rem; } }
+      @media all and (max-width: 512px) {
+        .header .header-foot p {
+          font-size: 1.2rem; } }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 6rem; }
+  @media all and (max-width: 700px) {
+    .nav {
+      padding: 2.5rem 4rem; } }
+  @media all and (max-width: 500px) {
+    .nav {
+      padding: 2.5rem 2rem; } }
+  .nav .logo-container a {
+    text-decoration: none; }
+    .nav .logo-container a .logo {
+      width: 5rem;
+      height: 5rem; }
+      @media all and (max-width: 480px) {
+        .nav .logo-container a .logo {
+          width: 4rem;
+          height: 4rem; } }
+  .nav .link-container .nav-ul {
+    display: flex; }
+    .nav .link-container .nav-ul li {
+      list-style: none;
+      margin-left: 3rem; }
+      .nav .link-container .nav-ul li div a {
+        text-decoration: none;
+        color: #000a12;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .nav .link-container .nav-ul li div a img {
+          width: 3rem;
+          height: 3rem; }
+
+.tutorial .tutorial-container .tutorial-row-one, .tutorial .tutorial-container .tutorial-row-two, .tutorial .tutorial-container .tutorial-row-three {
+  display: flex;
+  justify-content: center; }
+  @media all and (max-width: 480px) {
+    .tutorial .tutorial-container .tutorial-row-one, .tutorial .tutorial-container .tutorial-row-two, .tutorial .tutorial-container .tutorial-row-three {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
+  .tutorial .tutorial-container .tutorial-row-one div, .tutorial .tutorial-container .tutorial-row-two div, .tutorial .tutorial-container .tutorial-row-three div {
+    display: flex; }
+    @media all and (max-width: 920px) {
+      .tutorial .tutorial-container .tutorial-row-one div, .tutorial .tutorial-container .tutorial-row-two div, .tutorial .tutorial-container .tutorial-row-three div {
+        display: flex;
+        flex-direction: column; } }
+  .tutorial .tutorial-container .tutorial-row-one .card, .tutorial .tutorial-container .tutorial-row-two .card, .tutorial .tutorial-container .tutorial-row-three .card {
+    border: 1px solid #ddd;
+    box-shadow: 0px 3px #e0e0e0;
+    height: 40vh;
+    margin: 3rem;
+    margin-bottom: 3rem; }
+    .tutorial .tutorial-container .tutorial-row-one .card:hover, .tutorial .tutorial-container .tutorial-row-two .card:hover, .tutorial .tutorial-container .tutorial-row-three .card:hover {
+      box-shadow: 2px 3px 6px 2px #e0e0e0;
+      cursor: pointer; }
+    .tutorial .tutorial-container .tutorial-row-one .card .card-link, .tutorial .tutorial-container .tutorial-row-two .card .card-link, .tutorial .tutorial-container .tutorial-row-three .card .card-link {
+      text-decoration: none;
+      color: #000a12; }
+      .tutorial .tutorial-container .tutorial-row-one .card .card-link:hover .img-card, .tutorial .tutorial-container .tutorial-row-two .card .card-link:hover .img-card, .tutorial .tutorial-container .tutorial-row-three .card .card-link:hover .img-card {
+        opacity: 1; }
+      .tutorial .tutorial-container .tutorial-row-one .card .card-link:hover .course-title, .tutorial .tutorial-container .tutorial-row-two .card .card-link:hover .course-title, .tutorial .tutorial-container .tutorial-row-three .card .card-link:hover .course-title {
+        text-decoration: underline; }
+      .tutorial .tutorial-container .tutorial-row-one .card .card-link .img-card, .tutorial .tutorial-container .tutorial-row-two .card .card-link .img-card, .tutorial .tutorial-container .tutorial-row-three .card .card-link .img-card {
+        width: 22rem;
+        height: 15rem;
+        opacity: 0.8; }
+      .tutorial .tutorial-container .tutorial-row-one .card .card-link .card-content, .tutorial .tutorial-container .tutorial-row-two .card .card-link .card-content, .tutorial .tutorial-container .tutorial-row-three .card .card-link .card-content {
+        padding-top: 4rem;
+        display: flex;
+        flex-direction: column; }
+        .tutorial .tutorial-container .tutorial-row-one .card .card-link .card-content .course-title, .tutorial .tutorial-container .tutorial-row-two .card .card-link .card-content .course-title, .tutorial .tutorial-container .tutorial-row-three .card .card-link .card-content .course-title {
+          letter-spacing: 0;
+          font-weight: 800;
+          line-height: 2;
+          text-align: center; }
+        .tutorial .tutorial-container .tutorial-row-one .card .card-link .card-content .title-sub, .tutorial .tutorial-container .tutorial-row-two .card .card-link .card-content .title-sub, .tutorial .tutorial-container .tutorial-row-three .card .card-link .card-content .title-sub {
+          font-weight: 600;
+          color: #aaa;
+          text-align: center; }
+
+.learn-one .learn-container-one .video-container-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .learn-one .learn-container-one .video-container-one .content {
+    width: 100%;
+    height: 70vh;
+    border: none;
+    margin-top: 1rem;
+    outline: none; }
+    @media all and (max-width: 600px) {
+      .learn-one .learn-container-one .video-container-one .content {
+        height: 50vh; } }
+    @media all and (max-width: 450px) {
+      .learn-one .learn-container-one .video-container-one .content {
+        height: 40vh; } }
+
+.learn-one .learn-container-one .course-overview {
+  margin: 6rem 0; }
+  @media all and (max-width: 430px) {
+    .learn-one .learn-container-one .course-overview {
+      margin: 4rem 0; } }
+  @media all and (max-width: 960px) {
+    .learn-one .learn-container-one .course-overview {
+      margin-top: 4rem; } }
+  .learn-one .learn-container-one .course-overview .overview-header {
+    margin: 2rem 0rem 2rem 9rem; }
+    @media all and (max-width: 1100px) {
+      .learn-one .learn-container-one .course-overview .overview-header {
+        margin-left: 7rem; } }
+    @media all and (max-width: 800px) {
+      .learn-one .learn-container-one .course-overview .overview-header {
+        margin-left: 5rem; } }
+    @media all and (max-width: 570px) {
+      .learn-one .learn-container-one .course-overview .overview-header {
+        margin-left: 3rem; } }
+    @media all and (max-width: 430px) {
+      .learn-one .learn-container-one .course-overview .overview-header {
+        margin-left: 2rem; } }
+    .learn-one .learn-container-one .course-overview .overview-header h2 {
+      color: #9f0000;
+      border-bottom: 1.5px solid #000a12;
+      display: inline;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 2rem; }
+  .learn-one .learn-container-one .course-overview .overview-content {
+    width: 90%;
+    margin-left: 9rem; }
+    @media all and (max-width: 1100px) {
+      .learn-one .learn-container-one .course-overview .overview-content {
+        margin-left: 7rem; } }
+    @media all and (max-width: 800px) {
+      .learn-one .learn-container-one .course-overview .overview-content {
+        margin-left: 5rem; } }
+    @media all and (max-width: 570px) {
+      .learn-one .learn-container-one .course-overview .overview-content {
+        margin-left: 3rem; } }
+    @media all and (max-width: 430px) {
+      .learn-one .learn-container-one .course-overview .overview-content {
+        margin-left: 2rem; } }
+    .learn-one .learn-container-one .course-overview .overview-content p {
+      line-height: 2.3rem;
+      font-size: 2rem;
+      text-align: justify; }

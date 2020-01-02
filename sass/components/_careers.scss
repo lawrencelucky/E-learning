@@ -1,0 +1,163 @@
+.careers {
+    // height: 50vh;
+    margin-bottom: 6rem;
+
+    .career-container {
+        margin-top: 3rem;
+
+        .career-header {
+            font-weight: 400;
+            font-size: 2rem;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+
+            @media all and (max-width: 700px) {
+                font-size: 1.6rem;
+            }
+
+            @media all and (max-width: 500px) {
+                font-size: 1.3rem;
+            }
+
+            @media all and (max-width: 340px) {
+                font-size: 1rem;
+            }
+        }
+
+        .careers-in-csc {
+            margin-top: 3rem;
+            
+            .first-group {
+
+                div {
+                    display: flex;
+
+                    @media all and (max-width: 570px) {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+
+                @media all and (max-width: 445px) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                display: flex;
+                justify-content: center;
+                margin-bottom: 2rem;
+
+                @media all and (max-width: 570px) {
+                    margin-bottom: 0;
+                }
+
+                .career-item {
+                    display: flex;
+                    box-shadow: 2px 3px 6px 2px #e0e0e0;
+                    padding: 1.5rem 0rem 1.5rem 2rem;
+                    width: 20vw;
+                    margin-right: 2rem;
+                    flex-direction: row;
+
+                    @media all and (max-width: 700px) {
+                        padding-left: .5rem;
+                    }
+
+                    @media all and (max-width: 570px) {
+                        width: 35vw;
+                        margin-bottom: 2rem;
+                    }
+
+                    @media all and (max-width: 445px) {
+                        width: 50vw;
+                    }
+
+                    img {
+                        width: 4rem;
+                        height: 4rem;
+                    }
+
+                    p {
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        letter-spacing: 0;
+                        text-transform: uppercase;
+                        display: flex;
+                        align-items: center;
+                        margin-left: 1rem;
+                        line-height: 2rem;
+
+                        @media all and (max-width: 700px) {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+
+            .second-group {
+                display: flex;
+                justify-content: center;
+
+                div {
+                    display: flex;
+
+                    @media all and (max-width: 570px) {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                }
+
+                @media all and (max-width: 445px) {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .career-item {
+                    display: flex;
+                    box-shadow: 2px 3px 6px 2px #e0e0e0;
+                    padding: 1.5rem 0rem 1.5rem 2rem;
+                    width: 20vw;
+                    margin-right: 2rem;
+                    flex-direction: row;
+
+                    @media all and (max-width: 700px) {
+                        padding-left: .5rem;
+                    }
+
+                    @media all and (max-width: 570px) {
+                        width: 35vw;
+                        margin-bottom: 2rem;
+                    }
+
+                    @media all and (max-width: 445px) {
+                        width: 50vw;
+                    }
+
+
+                    img {
+                        width: 4rem;
+                        height: 4rem;
+                    }
+
+                    p {
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        letter-spacing: 0;
+                        text-transform: uppercase;
+                        display: flex;
+                        align-items: center;
+                        margin-left: 1rem;
+                        line-height: 2rem;
+
+                        @media all and (max-width: 700px) {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+.tutorial {
+
+    .tutorial-container {
+
+        .tutorial-row-one, .tutorial-row-two, .tutorial-row-three {
+            display: flex;
+            justify-content: center;
+
+            @media all and (max-width: 480px) {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            div {
+                display: flex;
+
+                @media all and (max-width: 920px) {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .card {
+                border: 1px solid #ddd;
+                box-shadow: 0px 3px #e0e0e0;
+                height: 40vh;
+                margin: 3rem;
+                margin-bottom: 3rem;                
+                
+                &:hover{
+                    box-shadow: 2px 3px 6px 2px #e0e0e0;
+                    cursor: pointer;
+                }
+
+                .card-link {
+                    text-decoration: none;
+                    color: $dark-text-color;
+
+                    &:hover {
+
+                        .img-card {
+                            opacity: 1;
+                        }
+
+                        .course-title {
+                            text-decoration: underline;
+                        }
+                    }
+
+                    .img-card {
+                        width: 22rem;
+                        height: 15rem;
+                        opacity: 0.8;
+                    }
+
+                    .card-content {
+                        padding-top: 4rem;
+                        display: flex;
+                        flex-direction: column;
+
+                        .course-title {
+                            letter-spacing: 0;
+                            font-weight: 800;
+                            line-height: 2;
+                            text-align: center;
+                            // padding-left: 2rem;
+                        }
+
+                        .title-sub {
+                            // margin-left: .5rem;
+                            font-weight: 600;
+                            color: #aaa;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,38 @@
+.get-started {
+    height: 60vh;
+    background: rgb(3, 27, 42);
+    background-image: linear-gradient(90deg, rgba(3, 27, 42, 0.85) 33%, rgba(3, 27, 42, 0.8547794117647058) 56%), url(../../images/get-started-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 8px solid $dark-text-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .btn-container {
+
+        .btn-link {
+            text-decoration: none;
+            
+    
+            .btn {
+                padding: 1.5rem 4rem;
+                outline: none;
+                border: none;
+                font-size: 1.5rem;
+                font-family: $default-font;
+                font-weight: 600;
+                color: $dark-text-color;
+                text-transform: uppercase;
+                background-color: $light-text-color;
+    
+                &:hover {
+                    color: $light-text-color;
+                    background-color: $dark-text-color;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

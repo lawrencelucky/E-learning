@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+html {
+    font-size: 62.5%; // 1rem
+
+    @media all and (max-width: 480px) {
+        font-size: 45%;
+    }
+
+    @media all and (max-width: 600px) {
+        font-size: 50%;
+    }
+
+    @media all and (max-width: 768px) {
+        font-size: 52%;
+    }
+
+    @media all and (max-width: 900px) {
+        font-size: 54%;
+    }
+
+    @media all and (max-width: 980px) {
+        font-size: 56%;
+    }
+
+    @media all and (min-width: 1280px) {
+        font-size: 56.25%;
+    }
+
+    @media all and (min-width: 1700px) {
+        font-size: 60%;
+    }
+
+    @media all and (min-width: 1920px) {
+        font-size: 65%;
+    }
+
+    @media all and (min-width: 2560px) {
+        font-size: 78%;
+    }
+
+    @media all and (min-width: 960px) and (max-width: 1199px) {
+        font-size: 57%;
+    }
+    @media all and (min-width: 768px) and (max-width: 959px) {
+        font-size: 53%;
+    }
+    @media all and (min-width: 480px) and (max-width: 767px){
+        font-size: 50%;
+    }
+}
+
+body {
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffff;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: #000a12;
+}

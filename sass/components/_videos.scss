@@ -1,0 +1,97 @@
+.learn-one {
+
+    .learn-container-one {
+
+        .video-container-one {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .content {
+                width: 100%;
+                height: 70vh;
+                border: none;
+                margin-top: 1rem;
+                outline: none;
+
+                @media all and (max-width: 600px) {
+                    height: 50vh;
+                }
+
+                @media all and (max-width: 450px) {
+                    height: 40vh;
+                }
+            }
+        }
+
+        .course-overview {
+            margin: 6rem 0;
+
+            @media all and (max-width: 430px) {
+                margin: 4rem 0;
+            }
+
+            @media all and (max-width: 960px) {
+                margin-top: 4rem;
+            }
+
+            .overview-header {
+                margin: 2rem 0rem 2rem 9rem;
+
+                @media all and (max-width: 1100px) {
+                    margin-left: 7rem;
+                }
+
+                @media all and (max-width: 800px) {
+                    margin-left: 5rem;
+                }
+
+                @media all and (max-width: 570px) {
+                    margin-left: 3rem;
+                }
+
+                @media all and (max-width: 430px) {
+                    margin-left: 2rem;
+                }
+
+                h2 {
+                    color: #9f0000;
+                    border-bottom: 1.5px solid $dark-text-color;
+                    display: inline;
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 2rem;
+                }
+            }
+
+            .overview-content {
+                width: 90%;
+                margin-left: 9rem;
+
+                @media all and (max-width: 1100px) {
+                    margin-left: 7rem;
+                }
+
+                @media all and (max-width: 800px) {
+                    margin-left: 5rem;
+                }
+
+                @media all and (max-width: 570px) {
+                    margin-left: 3rem;
+                }
+
+                @media all and (max-width: 430px) {
+                    margin-left: 2rem;
+                }
+
+                p {
+                    line-height: 2.3rem;
+                    font-size: 2rem;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+}
+
